@@ -125,3 +125,22 @@ main{
     margin-top: 1rem;
     color:  var(--Desaturated-blue);
 }
+
+@media screen and (max-width:450px){
+    main {
+        height: auto;
+    }
+    .card{
+        margin-top: 1rem;
+        height: 100%;
+    }
+    .card-title svg{
+        border-radius: 0rem;
+    }
+    .card-title{
+        border-radius: 0rem;
+    }
+    .card-content{
+        border-radius: 0rem;
+    }
+}
